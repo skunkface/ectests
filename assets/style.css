@@ -1,0 +1,268 @@
+html {
+  font-family: proxima-nova, sans-serif;
+  font-weight: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  max-width: 100%;
+  font-size: 15px;
+  font-weight: lighter;
+  color: white;
+}
+.body {
+}
+.section1 {
+  height: 482px;
+  background: url(header.png) no-repeat center;
+  background-size: cover;
+}
+.rainbow {
+  display: inline-block;
+}
+#rainbow_sm {
+  display: none;
+}
+.content {
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: top;
+  display: inline-block;
+}
+.logo {
+  display: inline-block;
+}
+.mh {
+  padding-top: 20px;
+}
+.phone {
+  width: 410px;
+  height: auto;
+  margin-top: -200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#phone_sm {
+  display: none;
+}
+.planner {
+  height: auto;
+  margin-top: -450px;
+  float: right;
+}
+#planner_sm {
+  display: none;
+}
+.para {
+  position: relative;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 25px;
+  background: rgba(179,179,179,0.9);
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  z-index: 100;
+}
+.pink {
+  position: relative;
+  margin-top: -5px;
+  width: 100%;
+  height: 5px;
+  background-color: #ca167e;
+  z-index: 100;
+}
+.section2 {
+  width: 100%;
+  height: 400px;
+  display: block;
+  background: url(pattern.png) no-repeat;
+  background-size: 100%;
+  float: left;
+  clear: left;
+  color: gray;
+  padding-top: 50px;  
+  text-align: center;
+  overflow: hidden;
+}
+#planner2_sm {
+  display: none;
+}
+.section2 > img {
+  margin-left: 10%;
+}
+.section3 {
+  width: 100%;
+  height: 800px;
+  display: block;
+  float: left;
+  clear: left;
+  color: gray;
+  text-align: center;
+  overflow: hidden;
+}
+#items_sm {
+  display: none;
+}
+.gold {
+  width: 100%;
+  height: 5px;
+  background-color: #ffc62e;
+}
+@media only screen and (min-width: 481px) (max-width: 767px) {
+  p {
+    margin: 0px;
+  }
+  .section1 {
+    height: 290px;
+    background: url(header_sm.png) no-repeat center;
+  }
+  .content {
+    margin-top: -40px;
+    font-size: .9em;
+    text-align: right;
+    float: right;
+  }
+  #rainbow {
+    display: none;
+  }
+  #rainbow_sm {
+    display: block;
+  }
+  #rainbow_sm img {
+    height: 15px;
+  }
+  #planner_sm {
+    display: block;
+  }
+  .planner {
+    margin-top: -150px;
+  }
+  #planner {
+    display: none;
+  }
+  #planner_sm img {
+    height: 150px;
+  }
+  #phone_sm {
+    display: block;
+  }
+  #phone_sm img {
+    height: 70px;
+    margin-top: 125px;
+    margin-left: 20%;
+  }
+  #phone {
+    display: none;
+  }
+  .phone {
+    position: relative;
+    width: auto;
+  }
+  .para {
+    font-size: .8em;
+    line-height: 15px;
+    width: 55%;
+    margin-top: -75px;
+  }
+  #planner2 {
+    display: none;
+  }
+  #planner2_sm {
+    display: block;
+  }
+  #items {
+    display: none;
+  }
+  #items_sm {
+    display: block;
+    height: auto;
+  }
+  #items_sm img {
+    height: 380px;
+  }
+}
+@media (max-width: 480px) {
+  p {
+    margin: 0px;
+  }
+  .section1 {
+    height: 290px;
+    background: url(header_sm.png) no-repeat center;
+  }
+  .content {
+    padding-left: 10px;
+    margin-top: -40px;
+    font-size: .9em;
+    text-align: right;
+    float: right;
+  }
+  .logo {
+    padding-left: 10px;
+  }
+  #rainbow {
+    display: none;
+  }
+  #rainbow_sm {
+    display: block;
+  }
+  #rainbow_sm img {
+    height: 15px;
+  }
+  #planner_sm {
+    display: block;
+  }
+  .planner {
+    margin-top: -150px;
+  }
+  #planner {
+    display: none;
+  }
+  #planner_sm img {
+    height: 150px;
+  }
+  #phone_sm {
+    display: block;
+  }
+  #phone_sm img {
+    height: 70px;
+    margin-top: 125px;
+    margin-left: 20%;
+  }
+  #phone {
+    display: none;
+  }
+  .phone {
+    position: relative;
+    width: auto;
+  }
+  .para {
+    font-size: .8em;
+    line-height: 15px;
+    width: 55%;
+    margin-top: -75px;
+  }
+  #planner2 {
+    display: none;
+  }
+  #planner2_sm {
+    display: block;
+  }
+  .section2 {
+    height: auto;
+  }
+  #items {
+    display: none;
+  }
+  #items_sm {
+    display: block;
+    height: auto;
+  }
+  #items_sm img {
+    width: 300px;
+  }
+}
